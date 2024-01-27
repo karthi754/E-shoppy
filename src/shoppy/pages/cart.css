@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cart1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+ 
+  table {
+    width: 65%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    margin-left: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 10px rgb(201, 196, 196);
+  }
+  
+  th, td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #2874f0;
+  }
+  
+ 
+  .productimg {
+    width: 80px;
+    height: 80px;
+  }
+  .bill{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .cartitem{
+    
+    justify-content: space-between;
+  }
+  
+  
+  .inc, .dec {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 7px;
+    cursor: pointer;
+  }
+  .inc:hover, .dec:hover {
+    background-color: #0056b3;
+  }
+  .count {
+    font-weight: bold;
+    margin: 0 5px;
+  }
+  .remove {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .remove:hover {
+    background-color: #bb2d3b;
+  }
+  .add{
+    width: 20px;
+    height: 20px;
+    color: rgb(72, 219, 72);
+    border: rgb(72, 219, 72) 1px solid ;
+  }
+  .minas{
+    width: 20px;
+    height: 20px;
+    color: #bb2d3b;
+    border: #bb2d3b 1px solid;
+  }
+  .check_down{
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cart_down{
+    display: flex;
+    width: 550px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-bottom: 120px;
+  }
+  .shiping{
+    display: flex;
+    justify-content: space-between;
+  }
+  .cart_total_items{
+    display: flex;
+    justify-content: space-between;
+  }
+  .cartItem_total{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+  }
+  .total_item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+  }
+  .cartItem_total button{
+    width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background-color: #dc3545;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .paybox{
+    display: flex;
+    margin-left: 110px;
+    margin-top: 150px;
+    width: 550px;
+    align-items: center;
+    justify-content: center;
+  }
+  .pdetail{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    gap: 40px;
+  }
+  .pdetail h2{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .pdetail p{
+    font-size: 20px;
+  }
+  .proname{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+  }
+  .qty{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+  }
+  .price{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+  }
+  .delivery{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+  }
+  .gtotal{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+  }
+  .place_but{
+    width: 262px;
+    height: 58px;
+    outline: none;
+    border: none;
+    background-color: #dc3545;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+  }

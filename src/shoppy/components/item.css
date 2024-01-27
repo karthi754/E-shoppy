@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);    
+    gap: 16px;
+    padding: 25px;
+
+}
+
+.cards{
+    background: #fff;
+    /* border: 1px solid #e0bc6f; */
+    border-radius: 15px;
+    display: flex;
+    cursor: pointer;
+    height: 420px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.cards:hover{
+    width: 400px;
+    height: 430px;
+    transition: ease-out 0s;
+    box-shadow: 0 10px 10px 10px rgb(201, 196, 196);
+}
+.cards img:hover{
+    width: 250px;
+    height: 270px;
+}
+.cards img{
+    width: 210px;
+    height: 250px;
+}
+.Pname{
+    font-size: 20px;
+    color:#1d1917;
+    cursor: pointer;
+    font-weight: 600;
+}
+.rating{
+    color: gold;
+    font-size: 18px;
+    display: flex;
+    font-weight: 600;
+}
+.rating p{
+    color: #5f524b;
+    padding-left: 10px;
+}
+.Pr_price{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+.Pr_price p{
+    color: rgb(35, 223, 35);
+}
+.Pr_price span{
+    font-size: 14px ;
+} 
+.Pr_price s{
+    color: rgb(238, 63, 63);
+} 
+.cart_btn{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(226, 158, 9);
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+}
+.cart_btn:active{
+    background-color: #e0bc6f;
+}
+.head{
+    font-size: 32px !important;
+    color: #1d1917;
+    font-weight: 600;
+}
+.headr{
+    display: flex;
+}
+.head hr{
+    border: none;
+    width: 350px;
+    height: 5px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #4e2828;
+}

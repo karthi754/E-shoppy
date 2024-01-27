@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.buyproducts{
+    display: flex;
+    padding: 150px;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card_box{
+    flex: 1;
+    display: flex;
+    height: 150px;
+    width: 650px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    font-size: 18px;
+    border: 1px solid rgb(219, 219, 214);
+    border-radius: 10px;
+}
+.product_image{
+    margin-left: 40px;
+}
+.product_image img{
+    width: 100px;
+    height: 100px;
+}
+.name1{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+}
+.price{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 600;
+}
+.qtty{
+    display: flex;
+    margin-left: 250px;
+}
+.adderss_detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headt{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px;
+    text-align: center;
+}
+.total{
+    display: flex;
+    font-size: 18px;
+    color: rgb(73, 69, 69);
+    width: 350px;    
+    padding: 10px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+.qty_count{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: rgb(77, 72, 72);
+    font-weight: 600;
+}
+.grd_total{
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(46, 42, 42);
+    padding: 10px;
+    justify-content: space-between;
+}
+.quote{
+    font-size: 18px;
+    color: rgb(128, 120, 120);
+    font-weight: 500;
+}
+.quote button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(142, 58, 221);
+    border-radius: 8px;
+    color: white;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
+.quote button:active{
+    background-color: white;
+}

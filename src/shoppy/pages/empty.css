@@ -1,0 +1,18 @@
+.empty {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .empty img {
+    max-width: 250px;
+  }
+  .empty h5{
+    color: red;
+    font-size: 20px;
+  }
+  .cart1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }

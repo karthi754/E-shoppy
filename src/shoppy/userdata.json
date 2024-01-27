@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "name": "santhu",
+      "email": "santhu@gmail.com",
+      "password": "12345678",
+      "id": 1
+    },
+    {
+      "name": "santhosh",
+      "email": "santhosh@gmail.com",
+      "password": "12345688",
+      "id": 2
+    },
+    {
+      "name": "bhuvi",
+      "email": "san@gmail.com",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "name": "vijiya",
+      "email": "vijiya@gmail.com",
+      "password": "1324569",
+      "id": 4
+    },
+    {
+      "name": "jayavel",
+      "email": "jayavel@gmail.com",
+      "password": "12345678",
+      "id": 5
+    },
+    {
+      "name": "thulsi",
+      "email": "tulasi@gmail.com",
+      "password": "12345678",
+      "id": 6
+    },
+    {
+      "name": "bhuvi",
+      "email": "neha@gmail.com",
+      "password": "cdr43215",
+      "id": 7
+    },
+    {
+      "name": "santhu",
+      "email": "santhu@gmail.com",
+      "password": "123445",
+      "id": 8
+    },
+    {
+      "name": "Karthikeyan",
+      "email": "karthi122@gmail.com",
+      "password": "123456",
+      "id": 9
+    }
+  ]
+}
